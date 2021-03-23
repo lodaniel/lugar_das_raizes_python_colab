@@ -62,7 +62,7 @@ if __name__ == "__main__":
   fig, ax = LR(aux2,raizes)
   plt.show()
 
-"""**Função de Transferência de Malha Aberta = k(5s^2 + 15s + 20) / (5s^5 + 57s^4 + 195s^3 + 218s^2 + 120s + 0)**"""
+"""**Função de Transferência de Malha Aberta = k(5s^2 + 10s + 20) / (5s^5 + 57s^4 + 195s^3 + 218s^2 + 120s + 0)**"""
 
 if __name__ == "__main__":
   aux2=np.linspace(0,250,num=10000)
